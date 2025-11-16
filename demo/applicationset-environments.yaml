@@ -18,8 +18,8 @@ spec:
       project: default
       source:
         repoURL: "https://github.com/bahaddouayoub/my-gitops-app.git"
-        targetRevision: main
-        path: gitops-app
+        targetRevision: master
+        path: demo
       destination:
         server: https://kubernetes.default.svc
         namespace: "demo-{{env}}"
